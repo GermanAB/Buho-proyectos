@@ -1,0 +1,26 @@
+<?php
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
+
+
+$EmailTo = "joel.sanchez.ramirez10@gmail.com";
+$Subject = "New Message Received from my website";
+
+// prepare email body text
+$Fields .= "Name: ";
+$Fields .= $name;
+$Fields .= "\n";
+
+$Fields.= "Email: ";
+$Fields .= $email;
+$Fields .= "\n";
+
+$Fields .= "Message: ";
+$Fields .= $message;
+$Fields .= "\n";
+
+
+// send email
+$success = mail($EmailTo,  $Subject,  $Fields, "From:".$email);
+

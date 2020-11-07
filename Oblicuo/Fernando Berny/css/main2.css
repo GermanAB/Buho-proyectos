@@ -1,0 +1,155 @@
+.imagenfondo {
+	background-image: url("../images/contacto.jpg");
+	background-size: cover;
+}
+
+.fondo {
+	background: #f8f8f8;
+	line-height: 1.25;
+	padding: 17px 20px;
+	color: #333;
+	margin-bottom: 20px;
+	opacity: 0.7;
+	margin-top: -11px;
+}
+
+@media (max-width: 600px) {
+	.fondo {
+		width: 300px;
+		height: 180px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.ache {
+		background: #f8f8f8;
+		line-height: 1.25;
+		padding: 17px 20px;
+		color: #333;
+		margin-bottom: 20px;
+		opacity: 0.7;
+		text-align: center !important;
+	}
+	.logo-footer {
+		width: 200px;
+		height: 60px;
+		z-index: 99;
+		margin-right: auto;
+	}
+	.m-b-25 {
+		text-align: center !important;
+	}
+	.p-md-l-0 {
+		text-align: center;
+	}
+	.widget_text {
+		text-align: center;
+	}
+	.widget-address {
+		text-align: center;
+	}
+}
+
+.formulario {
+	margin-left: -23px;
+	margin-right: 13px;
+}
+
+@media (max-width: 600px) {
+	.formulario {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.invertido {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.invertido {
+		display: block;
+	}
+}
+@media (max-width: 600px) {
+	.normal {
+		display: none;
+	}
+}
+
+.rowleft {
+	padding-left: 5px;
+}
+
+@media (max-width: 600px) {
+	.rowleft {
+		padding-left: 0px;
+	}
+}
+.ache {
+	text-align: right;
+}
+.logo-footer {
+	width: 200px;
+	height: 60px;
+	z-index: 99;
+}
+@media (max-width: 320px) {
+	.fondo {
+		width: auto;
+		height: auto;
+	}
+}
+@media (max-width: 1024px) {
+	.fondo {
+		width: 250px;
+		height: auto;
+	}
+}
+@media (max-width: 768px) and (min-width: 760px) {
+	.ache {
+		background: #f8f8f8;
+		line-height: 1.25;
+		padding: 17px 20px;
+		color: #333;
+		margin-bottom: 20px;
+		opacity: 0.7;
+		text-align: center !important;
+	}
+	.formulario {
+		margin: auto;
+		margin-top: 0;
+	}
+	.contact-info {
+		position: relative;
+	}
+	.fondo {
+		position: absolute;
+		margin-top: -150px;
+		margin-left: 200px;
+		width: auto;
+	}
+	.footer-col {
+		text-align: center;
+	}
+	.row {
+		width: 100%;
+	}
+	.widget.m-b-25 {
+		position: relative;
+		left: 55%;
+	}
+	.widget.widget-address {
+		position: relative;
+		left: 55%;
+	}
+	.col-lg-4.direccion {
+		top: 475px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.col-lg-8 {
+		top: -250px;
+	}
+}
